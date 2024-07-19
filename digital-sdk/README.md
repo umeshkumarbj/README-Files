@@ -25,7 +25,7 @@ This is the official README file for the `@nice-ccf/digital-sdk` library. This d
 <br/>
 <b>Contact Manager:</b> To initialize the digital web socket connection and manage the user slot details and handling messages using digital web socket.
 <br/>
-Browser Utils: For updating co-browser data using local storage and to use other utils. 
+<b>Browser Utils:</b> For updating co-browser data using local storage and to use other utils. 
 
 
 # Installation
