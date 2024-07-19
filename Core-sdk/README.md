@@ -15,13 +15,20 @@ This is the official README file for the `@nice-ccf/core-sdk` library. This core
 
 # Features
 
-Logger: To manage log related activities using logger config, log appender, console log appender etc.,
+Logger: To manage log related activities using logger config, log appender, console log appender etc.
+<br/>
 Formatter: To perform format related functionalities using log formatter, utils formatter, basic formatter.
+<br/>
 WebSocket Client: Interact with the CXone platform using websocket client.
+<br/>
 Contact Events: To receive status about call contact events, voice mail contact events.
+<br/>
 Helper functions: To reduce redundancy and for better practices helpers like Security Helper, Session Helper, LocalStorage Helper were used throughout the library.
+<br/>
 Data Parsing and Manipulation: Utilities for parsing strings to booleans or integers, and calculating percentages.
+<br/>
 Enums: Enumerations for various concepts like log level, Call Contact Events, Voice mail Contact events, Wem Notification Events.
+<br/>
 Utility Functions: Helper functions for common tasks like data manipulation, formatting, and potentially logging.
 
 

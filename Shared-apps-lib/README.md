@@ -15,11 +15,17 @@ This is the official README file for the `@nice-ccf/shared-apps-lib` library. Th
 
 # Features
 Digital Contact Data: To get info about the digital contact details.
+<br/>
 Integrating Agents: To embed the Agent Integration Process.
+<br/>
 Switching Events: For Handling Agent Screen Pop data when the pop is trigger between switch events.
+<br/>
 Contact Events: Models for managing voice contact events.
-Interfaces: Models for managing Digital Contact data, Voice data, authentication request, Auth Response data, integrating i18n data, Integration entities etc., 
+<br/>
+Interfaces: Models for managing Digital Contact data, Voice data, authentication request, Auth Response data, integrating i18n data, Integration entities etc.
+<br/>
 Enums: Enumerations for various concepts used throughout the library.
+<br/>
 Utility Functions: Helper functions for common tasks like data manipulation, formatting, and potentially logging.
 
 
