@@ -70,5 +70,5 @@ This SDK is likely compatible with specific CXone ACD versions. Refer to the doc
 
 Check the license file for specific terms regarding the use of this SDK.
 
-Support
+# Support
 For any issues or questions, please refer to the (mention support channel/link here).

@@ -63,12 +63,12 @@ const logger = new Logger('Browser Extension', 'DockingTab');
 Refer to the official documentation (link to be provided) for detailed usage examples on specific features like AdminService, WebsocketStatusCode, etc.
 Explore the available classes and methods within the library to interact with CXone Core-sdk functionalities.
 
-Documentation
+# Documentation
 
-Compatibility
+# Compatibility
 
 This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
 
-License
+# License
 
 Check the license file for specific terms regarding the use of this SDK.
