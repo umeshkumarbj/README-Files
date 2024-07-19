@@ -1,4 +1,4 @@
-NICE CXone Core SDK
+## NICE CXone Core SDK
 
 Official SDK Documentation
 NPM package
@@ -9,11 +9,11 @@ TypeScript 4.9
 Runtime: ES2022 (WebSocket, Intl, Promise, EventTarget, CustomEvent, JSON, Date, etc.)
 Custom application bundler (webpack, create-react-app, etc.)
 
-@nice-ccf/core-sdk
+# @nice-ccf/core-sdk
 
 This is the official README file for the `@nice-ccf/core-sdk` library. This core SDK empowers developers to integrate CXone Agent functionalities within their custom applications.
 
-Features
+# Features
 
 Logger: To manage log related activities using logger config, log appender, console log appender etc.,
 Formatter: To perform format related functionalities using log formatter, utils formatter, basic formatter.
@@ -25,20 +25,20 @@ Enums: Enumerations for various concepts like log level, Call Contact Events, Vo
 Utility Functions: Helper functions for common tasks like data manipulation, formatting, and potentially logging.
 
 
-Installation
+# Installation
 
 bash
 npm install @nice-ccf/core-sdk
 
 
-Peer Dependencies
+# Peer Dependencies
 This library relies on several peer dependencies, including:
 
 @nice-ccf/common-sdk
 @nice-ccf/i18n
 @nice-ccf/shared-apps-lib
 
-Usage
+# Usage
 
 1. Import necessary modules:
 
@@ -65,10 +65,10 @@ Explore the available classes and methods within the library to interact with CX
 
 Documentation
 
-Compatibility
+# Compatibility
 
 This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
 
-License
+# License
 
 Check the license file for specific terms regarding the use of this SDK.
