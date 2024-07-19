@@ -36,7 +36,7 @@ npm install @nice-ccf/shared-apps-lib
 
 # Usage
 
-1. Import necessary modules:
+1. Import necessary modules: <br />
 
     import {
       ICXoneAgentIntegration,
@@ -54,7 +54,7 @@ npm install @nice-ccf/shared-apps-lib
 
     Import other relevant functionalities as needed (e.g., CXoneDigitalContactData, PartnerDetailsCallback, CXoneAgentStateData, CXoneDigitalEventType etc.,)
 
-2. Initialize CXone Client:
+2. Initialize CXone Client:<br />
 
    const cxoneClient = CXoneClient.instance;<br />
    await cxoneClient.init('your_authorization_token'); // Replace with your actual token

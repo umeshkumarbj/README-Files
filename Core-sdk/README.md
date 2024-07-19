@@ -58,11 +58,11 @@ This library relies on several peer dependencies, including:
     BusinessUnit,
   } from '@nice-ccf/core-sdk';
 
-2. Initialize Logger:
+2. Initialize Logger:<br/>
   const logger = new Logger('Browser Extension', 'DockingTab');
 
-3. Leverage SDK functionalities:
-   Refer to the official documentation (link to be provided) for detailed usage examples on specific features like AdminService, WebsocketStatusCode, etc.
+3. Leverage SDK functionalities:<br />
+   Refer to the official documentation (link to be provided) for detailed usage examples on specific features like AdminService, WebsocketStatusCode, etc.<br />
    Explore the available classes and methods within the library to interact with CXone Core-sdk functionalities.
 
 # Compatibility

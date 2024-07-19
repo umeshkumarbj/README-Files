@@ -44,16 +44,16 @@ This library relies on several peer dependencies, including:
 
 # Usage
 
-1. Import necessary modules:
+1. Import necessary modules:<br />
    import { CXoneDigitalClient } from '@nice-ccf/digital-sdk';<br />
    Import other relevant functionalities as needed (e.g., call control, notifications)
 
-2. Initialize CXoneDigital Client:
+2. Initialize CXoneDigital Client:<br />
 
    const cxoneDigtialClient: CXoneDigitalClient = CXoneDigitalClient.instance;<br />
    cxoneDigtialClient.digitalService.getContactHistory('customerId); 
 
-3. Leverage SDK functionalities:
+3. Leverage SDK functionalities:<br />
 
     Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneDigitalClient, CXoneDigitalContact,SortOrder etc.<br />
     Explore the available classes and methods within the library to interact with CXone digital-sdk functionalities.
