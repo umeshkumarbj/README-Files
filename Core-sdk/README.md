@@ -15,21 +15,21 @@ This is the official README file for the `@nice-ccf/core-sdk` library. This core
 
 # Features
 
-Logger: To manage log related activities using logger config, log appender, console log appender etc.
-<br/><br/>
-Formatter: To perform format related functionalities using log formatter, utils formatter, basic formatter.
-<br/><br/>
-WebSocket Client: Interact with the CXone platform using websocket client.
-<br/><br/>
-Contact Events: To receive status about call contact events, voice mail contact events.
-<br/><br/>
-Helper functions: To reduce redundancy and for better practices helpers like Security Helper, Session Helper, LocalStorage Helper were used throughout the library.
-<br/><br/>
-Data Parsing and Manipulation: Utilities for parsing strings to booleans or integers, and calculating percentages.
-<br/><br/>
-Enums: Enumerations for various concepts like log level, Call Contact Events, Voice mail Contact events, Wem Notification Events.
-<br/><br/>
-Utility Functions: Helper functions for common tasks like data manipulation, formatting, and potentially logging.
+<b>Logger:</b> To manage log related activities using logger config, log appender, console log appender etc.
+<br/>
+<b>Formatter:</b> To perform format related functionalities using log formatter, utils formatter, basic formatter.
+<br/>
+<b>WebSocket Client:</b> Interact with the CXone platform using websocket client.
+<br/>
+<b>Contact Events:</b> To receive status about call contact events, voice mail contact events.
+<br/>
+<b>Helper functions:</b> To reduce redundancy and for better practices helpers like Security Helper, Session Helper, LocalStorage Helper were used throughout the library.
+<br/>
+<b>Data Parsing and Manipulation:</b> Utilities for parsing strings to booleans or integers, and calculating percentages.
+<br/>
+<b>Enums:</b> Enumerations for various concepts like log level, Call Contact Events, Voice mail Contact events, Wem Notification Events.
+<br/>
+<b>Utility Functions:</b> Helper functions for common tasks like data manipulation, formatting, and potentially logging.
 
 
 # Installation

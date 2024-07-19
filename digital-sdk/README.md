@@ -15,16 +15,16 @@ This is the official README file for the `@nice-ccf/digital-sdk` library. This d
 
 # Features
 
-Digital Client: To Interact with the CXone platform using the CXoneDigitalClient.
-<br/><br />
-Contact Information: To get the contact details from  (e.g., call alerts, work item updates).
-<br/><br />
-Digital Service: To get the digital Service details like information about digital channels, invoke Out bound Channels, inbound channels etc.
-<br/><br />
-User Slot Provider: Utilize user slot events like digital status, restart worker, terminate polling and refresh token etc.
-<br/><br />
-Contact Manager: To initialize the digital web socket connection and manage the user slot details and handling messages using digital web socket.
-<br/><br />
+<b>Digital Client:</b> To Interact with the CXone platform using the CXoneDigitalClient.
+<br/>
+<b>Contact Information:</b> To get the contact details from  (e.g., call alerts, work item updates).
+<br/>
+<b>Digital Service:</b> To get the digital Service details like information about digital channels, invoke Out bound Channels, inbound channels etc.
+<br/>
+<b>User Slot Provider:</b> Utilize user slot events like digital status, restart worker, terminate polling and refresh token etc.
+<br/>
+<b>Contact Manager:</b> To initialize the digital web socket connection and manage the user slot details and handling messages using digital web socket.
+<br/>
 Browser Utils: For updating co-browser data using local storage and to use other utils. 
 
 

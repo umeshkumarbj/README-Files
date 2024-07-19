@@ -14,19 +14,20 @@ Custom application bundler (webpack, create-react-app, etc.)
 This is the official README file for the `@nice-ccf/shared-apps-lib` library. This shared-apps-lib SDK empowers developers to integrate Component Loaders, enums, Helpers, Interfaces within their custom applications.
 
 # Features
-Digital Contact Data: To get info about the digital contact details.
-<br/><br />
-Integrating Agents: To embed the Agent Integration Process.
-<br/><br />
-Switching Events: For Handling Agent Screen Pop data when the pop is trigger between switch events.
-<br/><br />
-Contact Events: Models for managing voice contact events.
-<br/><br />
-Interfaces: Models for managing Digital Contact data, Voice data, authentication request, Auth Response data, integrating i18n data, Integration entities etc.
-<br/> <br />
-Enums: Enumerations for various concepts used throughout the library.
-<br/><br />
-Utility Functions: Helper functions for common tasks like data manipulation, formatting, and potentially logging.<br />
+
+<b>Digital Contact Data:</b> To get info about the digital contact details.
+<br/>
+<b>Integrating Agents:</b> To embed the Agent Integration Process.
+<br/>
+<b>Switching Events:</b> For Handling Agent Screen Pop data when the pop is trigger between switch events.
+<br/>
+<b>Contact Events:</b> Models for managing voice contact events.
+<br/>
+<b>Interfaces:</b> Models for managing Digital Contact data, Voice data, authentication request, Auth Response data, integrating i18n data, Integration entities etc.
+<br/> 
+<b>Enums:</b> Enumerations for various concepts used throughout the library.
+<br/>
+<b>Utility Functions:</b> Helper functions for common tasks like data manipulation, formatting, and potentially logging.
 
 
 # Installation
