@@ -27,9 +27,9 @@ This is the official README file for the `@nice-ccf/i18n` library. This i18n SDK
    Translated key, value pairs should be stored in json files for each language.<br />
     With the usage of i18n sdk on Change of language it turns the application into desired language.
 
-# Compatibility
+## Compatibility
 
-    This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
+This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
 
 # License
 

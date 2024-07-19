@@ -65,9 +65,9 @@ This library relies on several peer dependencies, including:
    Refer to the official documentation (link to be provided) for detailed usage examples on specific features like AdminService, WebsocketStatusCode, etc.<br />
    Explore the available classes and methods within the library to interact with CXone Core-sdk functionalities.
 
-# Compatibility
+## Compatibility
 
-  This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
+This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
 
 # License
 

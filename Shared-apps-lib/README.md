@@ -63,9 +63,9 @@ npm install @nice-ccf/shared-apps-lib
     Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneDigitalContactData, PartnerDeailsCallback, CXoneAgentStateDate, CXoneDigitalEvnetType etc., <br />
     Explore the available classes and methods within the library to interact with CXone shared-apps-libs functionalities.
 
-# Compatibility
+## Compatibility
 
-  This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
+This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
 
 # License
 

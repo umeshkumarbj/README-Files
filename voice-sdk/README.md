@@ -14,13 +14,13 @@ This is the official README file for the `@nice-ccf/voice-sdk` library. This voi
 
 # Features
 
-Client Interaction: To initialize voice extension, send message to web RTC Extension and to connect with server and enabling the chrome extension for voice call.
+**Client Interaction: To initialize voice extension, send message to web RTC Extension and to connect with server and enabling the chrome extension for voice call.
 <br/><br />
-Connection Options: Initiate, answer, hold, transfer, Mute and perform other call actions.
+**Connection Options: Initiate, answer, hold, transfer, Mute and perform other call actions.
 <br/><br />
-Connection Status: To know about the status of voice connection of the current call.
+**Connection Status: To know about the status of voice connection of the current call.
 <br/><br />
-Call/Messages: To get inbound and for outbound voice calls, To send and receive messages in the agent application.
+**Call/Messages: To get inbound and for outbound voice calls, To send and receive messages in the agent application.
 
 # Installation
 
@@ -51,9 +51,9 @@ This library relies on several peer dependencies, including:
    Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneVoiceClient, CXoneVoiceMessageType etc. <br />
    Explore the available classes and methods within the library to interact with CXone voice-sdk functionalities.
 
-# Compatibility
+## Compatibility
 
-    This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
+This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
 
 # License
 
