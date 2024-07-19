@@ -59,7 +59,7 @@ This library relies on several peer dependencies, including:
   } from '@nice-ccf/core-sdk';
 
 2. Initialize Logger:<br/>
-  const logger = new Logger('Browser Extension', 'DockingTab');
+   const logger = new Logger('Browser Extension', 'DockingTab');
 
 3. Leverage SDK functionalities:<br />
    Refer to the official documentation (link to be provided) for detailed usage examples on specific features like AdminService, WebsocketStatusCode, etc.<br />

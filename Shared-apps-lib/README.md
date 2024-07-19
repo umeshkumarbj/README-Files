@@ -1,8 +1,7 @@
 # NICE CXone shared-apps-lib SDK
 
-# Official SDK Documentation
-NPM package
-Sample Web App
+*  [NPM package](https://www.npmjs.com/package/@nice-ccf/acd-sdk)
+*  [Sample Web App](https://github.com/nice-cxone/webapp-acd-cxagent-sdk-consumer)
 
 # Requirements
 
@@ -66,7 +65,7 @@ npm install @nice-ccf/shared-apps-lib
 
 # Compatibility
 
-This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
+  This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
 
 # License
 
