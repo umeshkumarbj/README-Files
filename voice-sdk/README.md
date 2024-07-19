@@ -53,7 +53,7 @@ This library relies on several peer dependencies, including:
 
 # Compatibility
 
-This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
+    This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
 
 # License
 

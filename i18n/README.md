@@ -29,7 +29,7 @@ This is the official README file for the `@nice-ccf/i18n` library. This i18n SDK
 
 # Compatibility
 
-This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
+    This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
 
 # License
 
