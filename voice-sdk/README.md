@@ -1,8 +1,7 @@
 # NICE CXone Voice SDK
 
-# Official SDK Documentation
-NPM package
-Sample Web App
+*  [NPM package](https://www.npmjs.com/package/@nice-ccf/acd-sdk)
+*  [Sample Web App](https://github.com/nice-cxone/webapp-acd-cxagent-sdk-consumer)
 
 # Requirements
 TypeScript 4.9
@@ -16,16 +15,15 @@ This is the official README file for the `@nice-ccf/voice-sdk` library. This voi
 # Features
 
 Client Interaction: To initialize voice extension, send message to web RTC Extension and to connect with server and enabling the chrome extension for voice call.
-<br/>
+<br/><br />
 Connection Options: Initiate, answer, hold, transfer, Mute and perform other call actions.
-<br/>
+<br/><br />
 Connection Status: To know about the status of voice connection of the current call.
-<br/>
+<br/><br />
 Call/Messages: To get inbound and for outbound voice calls, To send and receive messages in the agent application.
 
-Installation
+# Installation
 
-bash
 npm install @nice-ccf/voice-sdk
 
 # Peer Dependencies
@@ -36,7 +34,7 @@ This library relies on several peer dependencies, including:
 @nice-ccf/i18n
 @nice-ccf/shared-apps-lib
 
-Usage
+# Usage
 
 1. Import necessary modules:
 
@@ -65,4 +63,5 @@ This SDK is likely compatible with specific CXone ACD versions. Refer to the doc
 This library is licensed under the (mention license here).
 
 # Support
+
 For any issues or questions, please refer to the (mention support channel/link here).

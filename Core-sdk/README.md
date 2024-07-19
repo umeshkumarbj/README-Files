@@ -4,6 +4,7 @@
 *  [Sample Web App](https://github.com/nice-cxone/webapp-acd-cxagent-sdk-consumer)
 
 # Requirements
+
 TypeScript 4.9
 Runtime: ES2022 (WebSocket, Intl, Promise, EventTarget, CustomEvent, JSON, Date, etc.)
 Custom application bundler (webpack, create-react-app, etc.)
@@ -39,13 +40,14 @@ npm install @nice-ccf/core-sdk
 # Peer Dependencies
 This library relies on several peer dependencies, including:
 
-@nice-ccf/common-sdk
-@nice-ccf/i18n
-@nice-ccf/shared-apps-lib
+@nice-ccf/common-sdk<br/>
+@nice-ccf/i18n<br/>
+@nice-ccf/shared-apps-lib<br/>
 
 # Usage
 
 1. Import necessary modules:
+   <br />
     import {
     AdminService,
       Logger,
