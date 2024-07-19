@@ -11,7 +11,7 @@ Custom application bundler (webpack, create-react-app, etc.)
 
 @nice-ccf/digital-sdk
 
-This is the official README file for the [@nice-ccf/digital-sdk] library. This digital SDK empowers developers to integrate CXone digital related functionalities within their custom applications.
+This is the official README file for the `@nice-ccf/digital-sdk` library. This digital SDK empowers developers to integrate CXone digital related functionalities within their custom applications.
 
 # Features
 
@@ -50,14 +50,13 @@ This library relies on several peer dependencies, including:
 
 2. Initialize CXoneDigital Client:
 
-   const cxoneDigtialClient: CXoneDigitalClient = CXoneDigitalClient.instance;
+   const cxoneDigtialClient: CXoneDigitalClient = CXoneDigitalClient.instance;<br />
    cxoneDigtialClient.digitalService.getContactHistory('customerId); 
 
 3. Leverage SDK functionalities:
 
-    Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneDigitalClient, CXoneDigitalContact,SortOrder etc.
+    Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneDigitalClient, CXoneDigitalContact,SortOrder etc.<br />
     Explore the available classes and methods within the library to interact with CXone digital-sdk functionalities.
-    Documentation
 
 # Compatibility
 

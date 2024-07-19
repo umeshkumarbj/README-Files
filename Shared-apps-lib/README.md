@@ -12,7 +12,7 @@ Custom application bundler (webpack, create-react-app, etc.)
 
 @nice-ccf/shared-apps-lib
 
-This is the official README file for the [@nice-ccf/shared-apps-lib] library. This shared-apps-lib SDK empowers developers to integrate Component Loaders, enums, Helpers, Interfaces within their custom applications.
+This is the official README file for the `@nice-ccf/shared-apps-lib` library. This shared-apps-lib SDK empowers developers to integrate Component Loaders, enums, Helpers, Interfaces within their custom applications.
 
 # Features
 Digital Contact Data: To get info about the digital contact details.
@@ -50,18 +50,18 @@ npm install @nice-ccf/shared-apps-lib
       CXoneDigitalContactStatus,
       CXonePartnerPresenceSyncRule,
       CXonePartnerDetailsCallback,
-    } from '@nice-ccf/shared-apps-lib';
+    } from '@nice-ccf/shared-apps-lib';<br />
 
     Import other relevant functionalities as needed (e.g., CXoneDigitalContactData, PartnerDetailsCallback, CXoneAgentStateData, CXoneDigitalEventType etc.,)
 
 2. Initialize CXone Client:
 
-   const cxoneClient = CXoneClient.instance;
+   const cxoneClient = CXoneClient.instance;<br />
    await cxoneClient.init('your_authorization_token'); // Replace with your actual token
 
 3. Leverage SDK functionalities:
 
-    Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneDigitalContactData, PartnerDeailsCallback, CXoneAgentStateDate, CXoneDigitalEvnetType etc.,
+    Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneDigitalContactData, PartnerDeailsCallback, CXoneAgentStateDate, CXoneDigitalEvnetType etc., <br />
     Explore the available classes and methods within the library to interact with CXone shared-apps-libs functionalities.
 
 # Compatibility

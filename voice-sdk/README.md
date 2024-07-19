@@ -38,21 +38,18 @@ This library relies on several peer dependencies, including:
 
 1. Import necessary modules:
 
-JavaScript
-import { CXoneVoiceClient } from '@nice-ccf/Voice-sdk';
-Import other relevant functionalities as needed (e.g., VoiceConnectionStatus, VoiceMessageType, VoiceConnection etc.,)
+   import { CXoneVoiceClient } from '@nice-ccf/Voice-sdk';<br />
+   Import other relevant functionalities as needed (e.g., VoiceConnectionStatus, VoiceMessageType, VoiceConnection etc.,)
 
 2. Initialize CXone Client:
 
-JavaScript
-const cxoneVoiceClient = CXoneVoiceClient.instance;
-await cxoneVoiceClient.connectServer('acdAgentId', 'options', 'audioElement', 'appName'); // Replace with actual value for this params
+   const cxoneVoiceClient = CXoneVoiceClient.instance;<br />
+   await cxoneVoiceClient.connectServer('acdAgentId', 'options', 'audioElement', 'appName'); // Replace with actual value for this params
 
 3. Leverage SDK functionalities:
 
-Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneVoiceClient, CXoneVoiceMessageType etc.
-Explore the available classes and methods within the library to interact with CXone voice-sdk functionalities.
-Documentation
+   Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneVoiceClient, CXoneVoiceMessageType etc. <br />
+   Explore the available classes and methods within the library to interact with CXone voice-sdk functionalities.
 
 # Compatibility
 

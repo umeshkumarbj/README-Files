@@ -11,7 +11,7 @@ Custom application bundler (webpack, create-react-app, etc.)
 
 @nice-ccf/core-sdk
 
-This is the official README file for the [@nice-ccf/core-sdk] library. This core SDK empowers developers to integrate CXone Agent functionalities within their custom applications.
+This is the official README file for the `@nice-ccf/core-sdk` library. This core SDK empowers developers to integrate CXone Agent functionalities within their custom applications.
 
 # Features
 
