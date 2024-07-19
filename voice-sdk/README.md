@@ -14,13 +14,13 @@ This is the official README file for the `@nice-ccf/voice-sdk` library. This voi
 
 # Features
 
-**Client Interaction: To initialize voice extension, send message to web RTC Extension and to connect with server and enabling the chrome extension for voice call.
-<br/><br />
-**Connection Options: Initiate, answer, hold, transfer, Mute and perform other call actions.
-<br/><br />
-**Connection Status: To know about the status of voice connection of the current call.
-<br/><br />
-**Call/Messages: To get inbound and for outbound voice calls, To send and receive messages in the agent application.
+<b>Client Interaction:</b> To initialize voice extension, send message to web RTC Extension and to connect with server and enabling the chrome extension for voice call.
+<br/>
+<b>Connection Options:</b> Initiate, answer, hold, transfer, Mute and perform other call actions.
+<br/>
+<b>Connection Status:</b> To know about the status of voice connection of the current call.
+<br/>
+<b>Call/Messages:</b> To get inbound and for outbound voice calls, To send and receive messages in the agent application.
 
 # Installation
 
