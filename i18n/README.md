@@ -1,8 +1,7 @@
 # NICE CXone i18n SDK
 
-Official SDK Documentation
-NPM package
-Sample Web App
+*  [NPM package](https://www.npmjs.com/package/@nice-ccf/acd-sdk)
+*  [Sample Web App](https://github.com/nice-cxone/webapp-acd-cxagent-sdk-consumer)
 
 # Requirements
 TypeScript 4.9
@@ -15,12 +14,9 @@ This is the official README file for the `@nice-ccf/i18n` library. This i18n SDK
 
 # Installation
 
-bash
 npm install @nice-ccf/i18n
 
 1. Import necessary modules:
-
-JavaScript
 import { translations } from '@nice-ccf/i18n';
 import { CcfTranslationKey } from '@nice-ccf/i18n';
 

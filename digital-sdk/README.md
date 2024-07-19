@@ -1,8 +1,7 @@
 # NICE CXone Digital SDK
 
-Official SDK Documentation
-NPM package
-Sample Web App
+*  [NPM package](https://www.npmjs.com/package/@nice-ccf/acd-sdk)
+*  [Sample Web App](https://github.com/nice-cxone/webapp-acd-cxagent-sdk-consumer)
 
 # Requirements
 TypeScript 4.9
@@ -30,7 +29,6 @@ Browser Utils: For updating co-browser data using local storage and to use other
 
 # Installation
 
-bash
 npm install @nice-ccf/digital-sdk
 
 # Peer Dependencies

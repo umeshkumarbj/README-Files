@@ -31,44 +31,39 @@ Utility Functions: Helper functions for common tasks like data manipulation, for
 
 # Installation
 
-bash
 npm install @nice-ccf/shared-apps-lib
 
 Usage
 
 1. Import necessary modules:
 
-JavaScript
-import {
-  ICXoneAgentIntegration,
-  ClickToActCallback,
-  CXoneAgentStateData,
-  CXoneScreenPopData,
-  CXoneVoiceContactData,
-  CXoneDigitalContactData,
-  LocaleChangeCallback,
-  CXoneDigitalEventType,
-  CXoneDigitalContactStatus,
-  CXonePartnerPresenceSyncRule,
-  CXonePartnerDetailsCallback,
-} from '@nice-ccf/shared-apps-lib';
+    import {
+      ICXoneAgentIntegration,
+      ClickToActCallback,
+      CXoneAgentStateData,
+      CXoneScreenPopData,
+      CXoneVoiceContactData,
+      CXoneDigitalContactData,
+      LocaleChangeCallback,
+      CXoneDigitalEventType,
+      CXoneDigitalContactStatus,
+      CXonePartnerPresenceSyncRule,
+      CXonePartnerDetailsCallback,
+    } from '@nice-ccf/shared-apps-lib';
 
-Import other relevant functionalities as needed (e.g., CXoneDigitalContactData, PartnerDetailsCallback, CXoneAgentStateData, CXoneDigitalEventType etc.,)
+    Import other relevant functionalities as needed (e.g., CXoneDigitalContactData, PartnerDetailsCallback, CXoneAgentStateData, CXoneDigitalEventType etc.,)
 
 2. Initialize CXone Client:
 
-JavaScript
-const cxoneClient = CXoneClient.instance;
-await cxoneClient.init('your_authorization_token'); // Replace with your actual token
+   const cxoneClient = CXoneClient.instance;
+   await cxoneClient.init('your_authorization_token'); // Replace with your actual token
 
 3. Leverage SDK functionalities:
 
-Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneDigitalContactData, PartnerDeailsCallback, CXoneAgentStateDate, CXoneDigitalEvnetType etc.,
-Explore the available classes and methods within the library to interact with CXone shared-apps-libs functionalities.
+    Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneDigitalContactData, PartnerDeailsCallback, CXoneAgentStateDate, CXoneDigitalEvnetType etc.,
+    Explore the available classes and methods within the library to interact with CXone shared-apps-libs functionalities.
 
-# Documentation
-
-Compatibility and Usage
+# Compatibility and Usage
 
 This SDK is likely compatible with specific CXone ACD versions. Refer to the documentation for supported versions.
 
