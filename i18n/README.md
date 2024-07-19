@@ -15,7 +15,7 @@ This is the official README file for the `@nice-ccf/i18n` library. This i18n SDK
 
 # Installation
 
-   npm install @nice-ccf/i18n
+`npm install @nice-ccf/i18n`
 
 # Usage
 

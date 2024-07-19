@@ -32,7 +32,7 @@ This is the official README file for the `@nice-ccf/shared-apps-lib` library. Th
 
 # Installation
 
-npm install @nice-ccf/shared-apps-lib
+`npm install @nice-ccf/shared-apps-lib`
 
 # Usage
 

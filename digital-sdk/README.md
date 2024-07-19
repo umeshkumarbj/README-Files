@@ -30,7 +30,7 @@ Browser Utils: For updating co-browser data using local storage and to use other
 
 # Installation
 
-npm install @nice-ccf/digital-sdk
+`npm install @nice-ccf/digital-sdk`
 
 # Peer Dependencies
 This library relies on several peer dependencies, including:

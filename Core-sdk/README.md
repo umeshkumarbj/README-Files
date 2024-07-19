@@ -34,7 +34,7 @@ This is the official README file for the `@nice-ccf/core-sdk` library. This core
 
 # Installation
 
-npm install @nice-ccf/core-sdk
+`npm install @nice-ccf/core-sdk`
 
 
 # Peer Dependencies

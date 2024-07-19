@@ -24,7 +24,7 @@ This is the official README file for the `@nice-ccf/voice-sdk` library. This voi
 
 # Installation
 
-npm install @nice-ccf/voice-sdk
+`npm install @nice-ccf/voice-sdk`
 
 # Peer Dependencies
 This library relies on several peer dependencies, including:
