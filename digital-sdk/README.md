@@ -1,6 +1,6 @@
 # NICE CXone Digital SDK
 
-*  [NPM package](https://www.npmjs.com/package/@nice-ccf/acd-sdk)
+*  [NPM package](https://www.npmjs.com/package/@nice-ccf/digital-sdk)
 *  [Sample Web App](https://github.com/nice-cxone/webapp-acd-cxagent-sdk-consumer)
 
 # Requirements

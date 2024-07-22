@@ -1,6 +1,6 @@
 # NICE CXone i18n SDK
 
-*  [NPM package](https://www.npmjs.com/package/@nice-ccf/acd-sdk)
+*  [NPM package](https://www.npmjs.com/package/@nice-ccf/i18n)
 *  [Sample Web App](https://github.com/nice-cxone/webapp-acd-cxagent-sdk-consumer)
 
 # Requirements
