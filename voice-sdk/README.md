@@ -15,11 +15,11 @@ This is the official README file for the `@nice-ccf/voice-sdk` library. This voi
 # Features
 
 <b>Client Interaction:</b> To initialize voice extension, send message to web RTC Extension and to connect with server and enabling the chrome extension for voice call.
-<br/>
+
 <b>Connection Options:</b> Initiate, answer, hold, transfer, Mute and perform other call actions.
-<br/>
+
 <b>Connection Status:</b> To know about the status of voice connection of the current call.
-<br/>
+
 <b>Call/Messages:</b> To get inbound and for outbound voice calls, To send and receive messages in the agent application.
 
 # Installation
@@ -30,26 +30,32 @@ This is the official README file for the `@nice-ccf/voice-sdk` library. This voi
 This library relies on several peer dependencies, including:
 
 @nice-ccf/core-sdk
+
 @nice-ccf/common-sdk
+
 @nice-ccf/i18n
+
 @nice-ccf/shared-apps-lib
 
 # Usage
 
-1. Import necessary modules:<br />
+1. Import necessary modules:
 
-   import { CXoneVoiceClient } from '@nice-ccf/Voice-sdk';<br />
-   Import other relevant functionalities as needed (e.g., VoiceConnectionStatus, VoiceMessageType, VoiceConnection etc.,)
+      import { CXoneVoiceClient } from '@nice-ccf/Voice-sdk';
 
-2. Initialize CXone Client:<br />
+      Import other relevant functionalities as needed (e.g., VoiceConnectionStatus, VoiceMessageType, VoiceConnection etc.,)
 
-   const cxoneVoiceClient = CXoneVoiceClient.instance;<br />
-   await cxoneVoiceClient.connectServer('acdAgentId', 'options', 'audioElement', 'appName'); // Replace with actual value for this params
+2. Initialize CXone Client:
 
-3. Leverage SDK functionalities:<br />
+      const cxoneVoiceClient = CXoneVoiceClient.instance;
 
-   Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneVoiceClient, CXoneVoiceMessageType etc. <br />
-   Explore the available classes and methods within the library to interact with CXone voice-sdk functionalities.
+      await cxoneVoiceClient.connectServer('acdAgentId', 'options', 'audioElement', 'appName'); // Replace with actual value for this params
+
+3. Leverage SDK functionalities:
+
+      Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneVoiceClient, CXoneVoiceMessageType etc. 
+      
+      Explore the available classes and methods within the library to interact with CXone voice-sdk functionalities.
 
 ## Compatibility
 

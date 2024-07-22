@@ -16,19 +16,19 @@ This is the official README file for the `@nice-ccf/core-sdk` library. This core
 # Features
 
 <b>Logger:</b> To manage log related activities using logger config, log appender, console log appender etc.
-<br/>
+
 <b>Formatter:</b> To perform format related functionalities using log formatter, utils formatter, basic formatter.
-<br/>
+
 <b>WebSocket Client:</b> Interact with the CXone platform using websocket client.
-<br/>
+
 <b>Contact Events:</b> To receive status about call contact events, voice mail contact events.
-<br/>
+
 <b>Helper functions:</b> To reduce redundancy and for better practices helpers like Security Helper, Session Helper, LocalStorage Helper were used throughout the library.
-<br/>
+
 <b>Data Parsing and Manipulation:</b> Utilities for parsing strings to booleans or integers, and calculating percentages.
-<br/>
+
 <b>Enums:</b> Enumerations for various concepts like log level, Call Contact Events, Voice mail Contact events, Wem Notification Events.
-<br/>
+
 <b>Utility Functions:</b> Helper functions for common tasks like data manipulation, formatting, and potentially logging.
 
 
@@ -40,30 +40,37 @@ This is the official README file for the `@nice-ccf/core-sdk` library. This core
 # Peer Dependencies
 This library relies on several peer dependencies, including:
 
-@nice-ccf/common-sdk<br/>
-@nice-ccf/i18n<br/>
-@nice-ccf/shared-apps-lib<br/>
+@nice-ccf/common-sdk
+
+@nice-ccf/i18n
+
+@nice-ccf/shared-apps-lib
+
 
 # Usage
 
 1. Import necessary modules:
-   <br />
-    import {
-    AdminService,
-      Logger,
-    ACDSessionManager,
-    LocalStorageHelper,
-    StorageKeys,
-    WebsocketStatusCode,
-    BusinessUnit,
-  } from '@nice-ccf/core-sdk';
+   
 
-2. Initialize Logger:<br/>
-   const logger = new Logger('Browser Extension', 'DockingTab');
+      import {
+      AdminService,
+         Logger,
+      ACDSessionManager,
+      LocalStorageHelper,
+      StorageKeys,
+      WebsocketStatusCode,
+      BusinessUnit,
+   } from '@nice-ccf/core-sdk';
 
-3. Leverage SDK functionalities:<br />
-   Refer to the official documentation (link to be provided) for detailed usage examples on specific features like AdminService, WebsocketStatusCode, etc.<br />
-   Explore the available classes and methods within the library to interact with CXone Core-sdk functionalities.
+2. Initialize Logger:
+
+      const logger = new Logger('Browser Extension', 'DockingTab');
+
+3. Leverage SDK functionalities:
+
+      Refer to the official documentation (link to be provided) for detailed usage examples on specific features like AdminService, WebsocketStatusCode, etc.
+      
+      Explore the available classes and methods within the library to interact with CXone Core-sdk functionalities.
 
 ## Compatibility
 

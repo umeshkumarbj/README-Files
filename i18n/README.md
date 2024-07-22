@@ -19,13 +19,17 @@ This is the official README file for the `@nice-ccf/i18n` library. This i18n SDK
 
 # Usage
 
-1. Import necessary modules:<br />
-   import { translations } from '@nice-ccf/i18n';<br />
-   import { CcfTranslationKey } from '@nice-ccf/i18n';
+1. Import necessary modules:
 
-2. Usage <br/>
-   Translated key, value pairs should be stored in json files for each language.<br />
-    With the usage of i18n sdk on Change of language it turns the application into desired language.
+      import { translations } from '@nice-ccf/i18n';
+      
+      import { CcfTranslationKey } from '@nice-ccf/i18n';
+
+2. Usage:
+
+      Translated key, value pairs should be stored in json files for each language.
+
+      With the usage of i18n sdk on Change of language it turns the application into desired language.
 
 ## Compatibility
 

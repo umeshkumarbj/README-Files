@@ -16,17 +16,17 @@ This is the official README file for the `@nice-ccf/shared-apps-lib` library. Th
 # Features
 
 <b>Digital Contact Data:</b> To get info about the digital contact details.
-<br/>
+
 <b>Integrating Agents:</b> To embed the Agent Integration Process.
-<br/>
+
 <b>Switching Events:</b> For Handling Agent Screen Pop data when the pop is trigger between switch events.
-<br/>
+
 <b>Contact Events:</b> Models for managing voice contact events.
-<br/>
+
 <b>Interfaces:</b> Models for managing Digital Contact data, Voice data, authentication request, Auth Response data, integrating i18n data, Integration entities etc.
-<br/> 
+
 <b>Enums:</b> Enumerations for various concepts used throughout the library.
-<br/>
+
 <b>Utility Functions:</b> Helper functions for common tasks like data manipulation, formatting, and potentially logging.
 
 
@@ -34,9 +34,15 @@ This is the official README file for the `@nice-ccf/shared-apps-lib` library. Th
 
 `npm install @nice-ccf/shared-apps-lib`
 
+# Peer Dependencies
+This library relies on several peer dependencies, including:
+
+@nice-ccf/i18n
+
 # Usage
 
-1. Import necessary modules: <br />
+1. Import necessary modules: 
+
 
     import {
       ICXoneAgentIntegration,
@@ -50,18 +56,22 @@ This is the official README file for the `@nice-ccf/shared-apps-lib` library. Th
       CXoneDigitalContactStatus,
       CXonePartnerPresenceSyncRule,
       CXonePartnerDetailsCallback,
-    } from '@nice-ccf/shared-apps-lib';<br />
+    } from '@nice-ccf/shared-apps-lib';
+
 
     Import other relevant functionalities as needed (e.g., CXoneDigitalContactData, PartnerDetailsCallback, CXoneAgentStateData, CXoneDigitalEventType etc.,)
 
-2. Initialize CXone Client:<br />
+2. Initialize CXone Client:
 
-   const cxoneClient = CXoneClient.instance;<br />
-   await cxoneClient.init('your_authorization_token'); // Replace with your actual token
+
+    const cxoneClient = CXoneClient.instance;
+
+    await cxoneClient.init('your_authorization_token'); // Replace with your actual token
 
 3. Leverage SDK functionalities:
 
-    Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneDigitalContactData, PartnerDeailsCallback, CXoneAgentStateDate, CXoneDigitalEvnetType etc., <br />
+    Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneDigitalContactData, PartnerDeailsCallback, CXoneAgentStateDate, CXoneDigitalEventType etc., 
+
     Explore the available classes and methods within the library to interact with CXone shared-apps-libs functionalities.
 
 ## Compatibility

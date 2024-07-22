@@ -16,15 +16,15 @@ This is the official README file for the `@nice-ccf/digital-sdk` library. This d
 # Features
 
 <b>Digital Client:</b> To Interact with the CXone platform using the CXoneDigitalClient.
-<br/>
+
 <b>Contact Information:</b> To get the contact details from  (e.g., call alerts, work item updates).
-<br/>
+
 <b>Digital Service:</b> To get the digital Service details like information about digital channels, invoke Out bound Channels, inbound channels etc.
-<br/>
+
 <b>User Slot Provider:</b> Utilize user slot events like digital status, restart worker, terminate polling and refresh token etc.
-<br/>
+
 <b>Contact Manager:</b> To initialize the digital web socket connection and manage the user slot details and handling messages using digital web socket.
-<br/>
+
 <b>Browser Utils:</b> For updating co-browser data using local storage and to use other utils. 
 
 
@@ -35,28 +35,37 @@ This is the official README file for the `@nice-ccf/digital-sdk` library. This d
 # Peer Dependencies
 This library relies on several peer dependencies, including:
 
-@nice-ccf/core-sdk <br/>
-@nice-ccf/common-sdk<br />
-@nice-ccf/acd-sdk<br />
-@nice-ccf/agent-sdk<br />
-@nice-ccf/i18n<br />
-@nice-ccf/shared-apps-lib<br />
+@nice-ccf/core-sdk 
+
+@nice-ccf/common-sdk
+
+@nice-ccf/acd-sdk
+
+@nice-ccf/agent-sdk
+
+@nice-ccf/i18n
+
+@nice-ccf/shared-apps-lib
 
 # Usage
 
-1. Import necessary modules:<br />
-   import { CXoneDigitalClient } from '@nice-ccf/digital-sdk';<br />
-   Import other relevant functionalities as needed (e.g., call control, notifications)
+1. Import necessary modules:
 
-2. Initialize CXoneDigital Client:<br />
+      import { CXoneDigitalClient } from '@nice-ccf/digital-sdk';
+      
+      Import other relevant functionalities as needed (e.g., call control, notifications)
 
-   const cxoneDigtialClient: CXoneDigitalClient = CXoneDigitalClient.instance;<br />
-   cxoneDigtialClient.digitalService.getContactHistory('customerId); 
+2. Initialize CXoneDigital Client:
 
-3. Leverage SDK functionalities:<br />
+      const cxoneDigtialClient: CXoneDigitalClient = CXoneDigitalClient.instance;
+      
+      cxoneDigtialClient.digitalService.getContactHistory('customerId); 
 
-    Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneDigitalClient, CXoneDigitalContact,SortOrder etc.<br />
-    Explore the available classes and methods within the library to interact with CXone digital-sdk functionalities.
+3. Leverage SDK functionalities:
+
+      Refer to the official documentation (link to be provided) for detailed usage examples on specific features like CXoneDigitalClient, CXoneDigitalContact,SortOrder etc.
+      
+      Explore the available classes and methods within the library to interact with CXone digital-sdk functionalities.
 
 ## Compatibility
 
